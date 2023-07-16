@@ -1,44 +1,60 @@
 /* global css */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
 
-body{
+body {
     font-family: 'Work Sans', sans-serif;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
+.btn-primary {
+    background-color: #FF900E;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.img {
+    width: 100%;
+}
+
 /* Header Section Styles here */
 
-.header{
+.header {
     background-color: #FFF3E6;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 50px 0px;
 }
-.nav-logo{
+
+.nav-logo {
     font-size: 2rem;
 }
-.navbar ul{
-    
-}
-.navbar ul li{
+
+.navbar ul {}
+
+.navbar ul li {
     display: inline-block;
     margin: 0px 15px;
     list-style: none;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color: #424242;
     font-size: 1.2rem;
@@ -46,30 +62,120 @@ body{
 
 /* Banner Section Styles Here */
 
-.banner{
+.banner {
     background-color: #FFF3E6;
     padding: 50px 0px;
 }
-.banner-content{
+
+.banner-content {
     margin-bottom: 15px;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
 }
-.banner-title{
+
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
+
 .banner-desc {
-	font-size: 1rem;
-	color: #424242;
-	width: 72%;
-	margin: 20px auto;
+    font-size: 1rem;
+    color: #424242;
+    width: 75%;
+    margin: 20px auto;
 }
-.btn-primary{
-    background-color: #FF900E;
-    border: 0;
-    padding: 15px 30px;
-    border-radius: 5px;
+
+/* Team Section Styles Here */
+.team {
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.team-images img {
+    width: 250px;
+}
+
+.team-content h3 {
+    font-size: 2.5rem;
+}
+
+.quick {
+    color: #727272;
+}
+
+.feat {
+    color: #FF900E
+}
+
+.team-content p {
+    font-size: 1rem;
+    color: #727272;
+    margin: 15px 0px;
+}
+
+/* Features Styles Here */
+.feature {
+    display: flex;
+}
+
+.feature-img img {
+    width: 90%;
+    padding-left: 50px;
+}
+
+.feature-content h2 {
+    color: #131313;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+
+}
+
+.feature-content p {
+    color: #727272;
+    font-size: 1rem;
+    margin: 15px 0px;
+}
+
+.card {
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+}
+
+.card p {
+    font-size: .8rem;
+    margin-bottom: 0px;
+}
+.ten-years-badge {
+	background-color: #FF900E;
+	color: #FFF;
+	padding: 25px 40px;
+	position: relative;
+	width: 30%;
+	bottom: 90px;
+	left: 30px;
+	border-radius: 5px;
+}
+.ten-years-badge h4{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.ten-years-badge p{
+    font-size: 1.2rem;
+    font-weight: 500;
 }
