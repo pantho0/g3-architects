@@ -195,3 +195,27 @@ body {
     font-size: 1rem;
     margin: 15px 0px;
 }
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.award-card {
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.award-card h4 {
+    color: #424242;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.award-card p {
+    color: #727272;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 10px 0px;
+}
