@@ -161,21 +161,37 @@ body {
     font-size: .8rem;
     margin-bottom: 0px;
 }
+
 .ten-years-badge {
-	background-color: #FF900E;
-	color: #FFF;
-	padding: 25px 40px;
-	position: relative;
-	width: 30%;
-	bottom: 90px;
-	left: 30px;
-	border-radius: 5px;
+    background-color: #FF900E;
+    color: #FFF;
+    padding: 25px 40px;
+    position: relative;
+    width: 30%;
+    bottom: 90px;
+    left: 30px;
+    border-radius: 5px;
 }
-.ten-years-badge h4{
+
+.ten-years-badge h4 {
     font-size: 2.5rem;
     font-weight: 700;
 }
-.ten-years-badge p{
+
+.ten-years-badge p {
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+/* Award Styles Here */
+.award h2 {
+    color: #131313;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.award p {
+    color: #727272;
+    font-size: 1rem;
+    margin: 15px 0px;
 }
