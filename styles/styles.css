@@ -219,3 +219,35 @@ body {
     font-weight: 600;
     margin: 10px 0px;
 }
+
+/* Sponsors Styles Here */
+.sponsors{
+    padding: 50px 0px;
+}
+.sponsors h2{
+    color: #131313;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.sponsors p{
+    color: #727272;
+    font-size: 1rem;
+    margin: 15px 0px;
+}
+.sponsors-img{
+    display: flex;
+    justify-content: space-between;
+}
+.sponsors-img img{
+    width: 6rem;
+}
+/* Footer Styles Here */
+.footer{
+    background-color: #FFF3E6;
+}
+.footer p{
+    color: #727272;
+    font-size: 1rem;
+    margin: 15px 0px;
+    padding: 20px 0px;
+}
