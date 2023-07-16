@@ -37,13 +37,14 @@ body {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 0px;
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 0px;
+	align-items: center;
 }
 
 .nav-logo {
-    font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 .navbar ul {}
@@ -55,20 +56,19 @@ body {
 }
 
 .navbar ul li a {
-    text-decoration: none;
-    color: #424242;
-    font-size: 1.2rem;
+	text-decoration: none;
+	color: #424242;
+	font-size: 1rem;
 }
-
 /* Banner Section Styles Here */
 
 .banner {
-    background-color: #FFF3E6;
-    padding: 50px 0px;
+	background-color: #FFF3E6;
+	padding: 35px 0px;
 }
 
 .banner-content {
-    margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .banner-img img {
@@ -76,9 +76,9 @@ body {
 }
 
 .banner-title {
-    font-size: 4rem;
-    font-weight: 700;
-    margin: 0 auto;
+	font-size: 3rem;
+	font-weight: 700;
+	margin: 0 auto;
 }
 
 .banner-desc {
@@ -119,14 +119,15 @@ body {
 }
 
 .team-content p {
-    font-size: 1rem;
-    color: #727272;
-    margin: 15px 0px;
+	font-size: 1rem;
+	color: #727272;
+	margin: 30px 0px;
 }
 
 /* Features Styles Here */
 .feature {
-    display: flex;
+	display: flex;
+	padding: 50px 0px;
 }
 
 .feature-img img {
@@ -191,14 +192,13 @@ body {
 }
 
 .award p {
-    color: #727272;
-    font-size: 1rem;
-    margin: 15px 0px;
+	color: #727272;
+	font-size: 1rem;
+	margin: 40px 0px;
 }
-
 .card-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .award-card {
@@ -229,10 +229,10 @@ body {
     font-size: 2.2rem;
     font-weight: 700;
 }
-.sponsors p{
-    color: #727272;
-    font-size: 1rem;
-    margin: 15px 0px;
+.sponsors p {
+	color: #727272;
+	font-size: 1rem;
+	margin: 25px 0px;
 }
 .sponsors-img{
     display: flex;
@@ -245,9 +245,9 @@ body {
 .footer{
     background-color: #FFF3E6;
 }
-.footer p{
-    color: #727272;
-    font-size: 1rem;
-    margin: 15px 0px;
-    padding: 20px 0px;
+.footer p {
+	color: #727272;
+	font-size: 1rem;
+	margin: 30px 0px;
+	padding: 25px 0px;
 }
